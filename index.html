@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가위바위보</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>가위바위보</h1>
+    </header>
+    <div class="warp">
+        <div id="explain">3판 2선승제</div>
+        <div class="scoreBoard">
+            <span id="score"> com <span id="comTotal">0</span> : <span id="myTotal">0</span> 나 </span>
+        </div>
+        <div id="rspCom">
+        </div>
+        <div class="gameBtnGroup">
+            <button id="rock" class="btn">가위</button>
+            <button id="scissors" class="btn">바위</button>
+            <button id="paper" class="btn">보</button>
+        </div>
+        <button id="reStart">재시작</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
